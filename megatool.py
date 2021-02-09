@@ -13,10 +13,10 @@ while True:
         os.system("sudo wafw00f" + site + "")
     elif tarama == '2':
         site = str(input("Hedef Site:"))
-        os.system("sudo nmap -T4 -A -sV -Pn --script firewall-bypass" + site + "")
-    elif tarama == '3':
+        os.system("sudo nmap -T4 -A -sV -Pn --script firewall-bypass " + site + "")
+    elif tarama == '3': 
         site = str(input("Hedef Site:"))
-        os.system("sudo nmap -T4 -A -sV -Pn --script vuln" + site + "")
+        os.system("sudo nmap -T4 -A -sV -Pn --script vuln " + site + "")
     elif tarama == '4':
         site = str(input("Hedef Site"))
         os.system("sudo uniscan -u " + site + "-qweds")
